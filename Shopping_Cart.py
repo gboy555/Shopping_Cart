@@ -43,7 +43,7 @@ while True:
     print("\n1. Add product")
     print("2. Remove product")
     print("3. Show items")
-    # Remove Option 4 by not displaying the option for user
+    # Remove Option 4 by not displaying the option for user.
     # print("4. Show total price") 
     print("5. Quit")
     choice = input("Enter your choice: ")

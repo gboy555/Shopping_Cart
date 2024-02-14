@@ -45,7 +45,9 @@ while True:
     print("3. Show items")
     # Remove 4 by comment it
     # print("4. Show total price") 
-    print("5. Quit")
+    # Rename option as "0. Quit"
+    # print("5. Quit")
+    print("0. Quit")
     choice = input("Enter your choice: ")
 
     if choice == "1":
@@ -68,8 +70,9 @@ while True:
     elif choice == "4":
         total = cart.calculate_total()
         print(f"Total price: {total}")
-
-    elif choice == "5":
+    # Update condition to check with 0"
+    # elif choice == "5":
+    elif choice == "0":
         break
 
     else:
